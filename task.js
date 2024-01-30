@@ -205,9 +205,93 @@ Generate a multiplication table for number 9
 
 
 // Implement a countdown timer that counts down from 21 to 15.
-let count = 21;
+// let count = 21;
 
-while (count >= 15) {
-    console.log(count);
-    count--;
+// while (count >= 15) {
+//     console.log(count);
+//     count--;
+// }
+
+
+
+
+
+
+
+// ===================================/* 
+
+// Write a loop 1 to 200. Use break to exit the loop once you find 100.
+// for (let i = 1; i <= 200; i++) {
+//     console.log(i)
+//     if (i === 100) {
+//         console.log(i)
+//         break;
+//     }
+// }
+
+
+
+// for (let i = 1; i <= 200; i++) {
+//     console.log(i);
+//     if (i === 100) {
+//         console.log("Found 100! Exiting loop.");
+//         break;
+//     }
+// }
+
+
+
+
+// /* 
+// Write a while loop that adds numbers starting from 1, but stops (using break) as soon as the sum reaches or exceeds 100
+// *
+
+
+// let total = 0;
+// let currentNumber = 1;
+// while(true){
+//     console.log(currentNumber)
+//     if(currentNumber >= 100){
+//         break
+//     }
+//     currentNumber++;
+// }
+// console.log(currentNumber)
+
+
+
+
+
+/* 
+Write a while loop that adds numbers starting from 1, but stops (using break) as soon as the sum reaches or exceeds 100
+*/
+
+
+
+
+
+
+
+
+/* 
+Write a loop that goes from 1 to 100, but stops (using break) when it encounters the first square number (like 4, 9, 16, etc.)
+*/
+let start = 1;
+while (start <= 100) {
+    let square = start * start
+    console.log(square)
+    if (square === 100) {
+        break;
+    }
+    start++;
 }
+
+
+// for (let i = 1; i <= 100; i++) {
+//     let square = i * i;
+//     console.log(square)
+//     // if (square === i) {
+//     //     console.log("Encountered the first square number:", i);
+//     //     break;
+//     // }
+// }
