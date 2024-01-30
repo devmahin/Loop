@@ -10,13 +10,19 @@
 
 
 // even while loop
-let numConvat = 1;
-while(numConvat <= 28){
-    console.log(numConvat)
-    if(numConvat % 3 === 1){
-        console.log("even",numConvat)
-    }
-    numConvat++;
+// let numConvat = 1;
+// while(numConvat <= 28){
+//     console.log(numConvat)
+//     if(numConvat % 3 === 1){
+//         console.log("even",numConvat)
+//     }
+//     numConvat++;
+// }
+
+let n= 0;
+do{
+        console.log(n) 
+        n++
+
 }
-
-
+while(n < 5)
